@@ -33,8 +33,8 @@ and get the trajectory of each object.
 We run the tracker on video and extract the trajectories of all the objects across the frames of 
 the video. Based on the extracted trajectories, we construct a knowledge base. This knowledge base is provided 
 to the LLM agent.  The code for the tracker experiment can be found in 
-`[mot_tracker.ipynb](mot_tracker.ipynb)mot_tracker.ipynb`
-`[tracker_output_visualization.ipynb](tracker_output_visualization.ipynb)` file. 
+[mot_tracker.ipynb](mot_tracker.ipynb)
+[tracker_output_visualization.ipynb](tracker_output_visualization.ipynb) file. 
 Extracted trajectories are available in the data folder.
 
 
@@ -45,7 +45,7 @@ often identifying only a few. To obtain detailed information about each object, 
 explicitly. To address this limitation, we integrate a detector model to extract spatial information and 
 construct a knowledge base. This enables the LMMM to utilize the knowledge base for more comprehensive 
 descriptions of images and videos. The result of the experiment can be found in 
-`[agentchat_lmm_llava.ipynb](agentchat_lmm_llava.ipynb)` file.
+[agentchat_lmm_llava.ipynb](agentchat_lmm_llava.ipynb) file.
 
 For video content, LLaVA is incapable of direct description. Therefore, we establish a knowledge base 
 containing bounding box coordinates for all instances within the image. Utilizing this knowledge base, 
@@ -80,13 +80,13 @@ semantic object categories, and depth maps to generate 3D point clouds for each 
 help us calculate the position of each object within a 3D coordinate system, considering the camera's 
 position as the origin. This setup enables us to measure the distances between objects and from objects 
 to the camera, providing critical data for understanding spatial dynamics. 3D coordinates and bounding boxes 
-of objects are extracted using `[carla_gt_tracker.ipynb](carla_gt_tracker.ipynb)`.
+of objects are extracted using [carla_gt_tracker.ipynb](carla_gt_tracker.ipynb).
 
 We then compile this spatial data into a "knowledge dictionary" that outlines the spatial arrangement 
 and inter-object relationships in the scene, such as the distance between two objects or if they are 
 moving closer together. This dictionary is supplied to the vision language model along with the original 
 video prompt. The experiment's findings, detailed in the 
-`[agentchat_lmm_llava_revise.ipynb](agentchat_lmm_llava_revise.ipynb)` file, demonstrate that providing additional 
+[agentchat_lmm_llava_revise.ipynb](agentchat_lmm_llava_revise.ipynb) file, demonstrate that providing additional 
 spatial information and context about object relationships significantly enhances the spatial reasoning 
 capabilities of vision language models.
 
