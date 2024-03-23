@@ -86,9 +86,9 @@ We then compile this spatial data into a "knowledge dictionary" that outlines th
 and inter-object relationships in the scene, such as the distance between two objects or if they are 
 moving closer together. This dictionary is supplied to the vision language model along with the original 
 video prompt. The experiment's findings, detailed in the 
-[agentchat_lmm_llava_revise.ipynb](agentchat_lmm_llava_revise.ipynb) file, demonstrate that providing additional 
+[agentchat_lmm_llava_revise.ipynb](agentchat_lmm_llava_revise.ipynb) file, demonstrate that providing  
 spatial information and context about object relationships significantly enhances the spatial reasoning 
-capabilities of vision language models.
+capabilities of vision language models even if the video frames are not provided. 
 
 
 #### Reference
