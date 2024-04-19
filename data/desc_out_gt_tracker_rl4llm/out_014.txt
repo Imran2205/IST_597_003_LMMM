@@ -1,0 +1,1036 @@
+#####################################1-2#########################################
+building_104, 00001, (31, 110, 71, 150)
+building_105, 00001, (0, 0, 120, 109)
+building_106, 00001, (0, 105, 32, 140)
+building_107, 00001, (0, 72, 58, 111)
+building_108, 00001, (0, 337, 91, 434)
+building_111, 00001, (29, 267, 78, 312)
+pedestrian_0, 00001, (101, 65, 156, 90)
+roadline_0, 00001, (177, 352, 246, 480)
+road_13, 00001, (140, 274, 270, 480)
+road_14, 00001, (83, 177, 133, 375)
+sidewalk_61, 00001, (95, 0, 132, 81)
+sidewalk_1, 00001, (153, 0, 168, 23)
+sidewalk_2, 00001, (104, 0, 155, 71)
+sidewalk_3, 00001, (209, 278, 270, 345)
+sidewalk_4, 00001, (137, 0, 270, 307)
+sidewalk_5, 00001, (83, 83, 147, 201)
+sidewalk_6, 00001, (119, 388, 141, 480)
+sidewalk_7, 00001, (220, 271, 270, 318)
+vegetation_0, 00001, (0, 187, 94, 393)
+vehicles_0, 00001, (124, 192, 221, 287)
+vehicles_0 color: floralwhite
+ground_0, 00001, (117, 429, 132, 457)
+static_0, 00001, (71, 382, 93, 402)
+static_1, 00001, (106, 158, 131, 170)
+static_2, 00001, (112, 456, 132, 476)
+##############################################################################
+#####################################2-11#########################################
+building_104, 00002, (42, 106, 68, 142)
+building_105, 00002, (0, 0, 112, 101)
+building_106, 00002, (1, 133, 31, 144)
+building_107, 00002, (0, 63, 39, 99)
+building_108, 00002, (0, 348, 95, 480)
+building_111, 00002, (21, 271, 78, 317)
+building_113, 00002, (44, 162, 70, 173)
+pole_0, 00002, (0, 142, 141, 160)
+roadline_0, 00002, (159, 282, 270, 447)
+road_13, 00002, (138, 283, 270, 480)
+road_14, 00002, (83, 173, 157, 431)
+sidewalk_61, 00002, (99, 0, 120, 58)
+sidewalk_2, 00002, (86, 0, 144, 105)
+sidewalk_3, 00002, (216, 207, 270, 258)
+sidewalk_4, 00002, (166, 0, 270, 215)
+sidewalk_5, 00002, (83, 0, 189, 180)
+sidewalk_6, 00002, (133, 435, 147, 480)
+sidewalk_7, 00002, (209, 196, 270, 227)
+sidewalk_8, 00002, (84, 157, 169, 198)
+sidewalk_9, 00002, (120, 168, 166, 186)
+sidewalk_10, 00002, (102, 294, 136, 435)
+vegetation_0, 00002, (0, 185, 98, 420)
+vehicles_0, 00002, (124, 192, 219, 287)
+vehicles_0 color: floralwhite
+vehicles_1 color: cornflowerblue
+vehicles_58 color: black
+vehicles_59 color: black
+vehicles_60 color: darkslategray
+vehicles_62 color: black
+ground_0, 00002, (129, 456, 141, 480)
+ground_1, 00002, (119, 421, 132, 451)
+static_0, 00002, (70, 399, 94, 426)
+static_1, 00002, (120, 117, 157, 138)
+static_2, 00002, (114, 449, 135, 480)
+vehicles_0_color_floralwhite  move from near-front to near-front and decelerate
+vehicles_1_color_cornflowerblue appear and move from near-front to near-left and deceleratethen disappear
+vehicles_58_color_black appear and move from near-right to near-right and maintains constant speedthen disappear
+vehicles_60_color_darkslategray appear and move from near-right to near-right and deceleratethen disappear
+vehicles_0_color_floralwhite collides with trafficsign_0,vehicles_1_color_cornflowerblue
+vehicles_0_color_floralwhite comes close to vehicles_60_color_darkslategray,vehicles_58_color_black
+vehicles_0_color_floralwhite maintains constant distance with vehicles_59_color_black,vehicles_62_color_black,trafficsign_1,pedestrian_49_color_black,pole_37,sidewalk_61
+vehicles_1_color_cornflowerblue maintains constant distance with roadline_0,trafficsign_1,pedestrian_49_color_black,pole_0,trafficsign_0,pole_37
+vehicles_58_color_black maintains constant distance with pole_0,roadline_0,trafficsign_0,pole_37
+vehicles_60_color_darkslategray maintains constant distance with pedestrian_1_color_dimgray,pole_37
+##############################################################################
+#####################################11-21#########################################
+building_104, 00011, (28, 177, 70, 231)
+building_105, 00011, (0, 0, 110, 105)
+building_106, 00011, (0, 173, 28, 245)
+building_107, 00011, (0, 93, 84, 159)
+building_111, 00011, (9, 353, 85, 472)
+building_113, 00011, (21, 228, 70, 256)
+building_11, 00011, (0, 153, 31, 177)
+pole_2, 00011, (119, 0, 156, 12)
+roadline_15, 00011, (132, 321, 270, 480)
+road_14, 00011, (93, 0, 270, 480)
+road_15, 00011, (79, 199, 94, 275)
+sidewalk_2, 00011, (104, 0, 120, 58)
+sidewalk_5, 00011, (92, 3, 150, 188)
+sidewalk_8, 00011, (99, 65, 152, 180)
+sidewalk_9, 00011, (99, 61, 147, 175)
+sidewalk_10, 00011, (93, 281, 242, 480)
+sidewalk_63, 00011, (78, 188, 92, 207)
+vegetation_0, 00011, (0, 231, 111, 480)
+vehicles_0, 00011, (125, 201, 223, 297)
+vehicles_0 color: floralwhite
+vehicles_1, 00011, (138, 0, 248, 97)
+vehicles_1 color: cornflowerblue
+vehicles_6 color: black
+ground_1, 00011, (130, 356, 225, 480)
+static_2, 00011, (126, 375, 201, 480)
+static_49, 00011, (118, 426, 156, 480)
+static_50, 00011, (66, 51, 127, 125)
+static_51, 00011, (67, 115, 111, 153)
+pedestrian_3_color_darkolivegreen appear and walk from near-left to near-left and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and decelerate
+vehicles_0_color_floralwhite collides with vehicles_1_color_cornflowerblue
+pedestrian_3_color_darkolivegreen goes away from sidewalk_15
+pedestrian_3_color_darkolivegreen comes close to sidewalk_2,sidewalk_13
+pedestrian_3_color_darkolivegreen maintains constant distance with roadline_14,sidewalk_16,vehicles_0_color_floralwhite,vegetation_0,pole_4,sidewalk_5,sidewalk_63,sidewalk_10,sidewalk_8,sidewalk_9
+vehicles_0_color_floralwhite maintains constant distance with vehicles_6_color_black,pole_2,pedestrian_3_color_darkolivegreen
+##############################################################################
+#####################################21-31#########################################
+building_104, 00021, (21, 129, 71, 228)
+building_106, 00021, (0, 165, 21, 256)
+building_107, 00021, (0, 0, 109, 96)
+building_111, 00021, (0, 366, 93, 480)
+building_113, 00021, (3, 225, 70, 258)
+building_11, 00021, (0, 144, 24, 166)
+pole_5, 00021, (80, 97, 130, 111)
+roadline_14, 00021, (128, 79, 270, 198)
+road_14, 00021, (124, 88, 270, 480)
+road_15, 00021, (82, 154, 124, 333)
+sidewalk_5, 00021, (121, 0, 189, 138)
+sidewalk_8, 00021, (124, 0, 213, 151)
+sidewalk_9, 00021, (121, 0, 201, 144)
+sidewalk_10, 00021, (122, 347, 197, 480)
+sidewalk_63, 00021, (81, 104, 121, 215)
+sidewalk_13, 00021, (98, 0, 121, 99)
+sidewalk_15, 00021, (81, 102, 96, 147)
+sidewalk_16, 00021, (95, 168, 111, 202)
+vegetation_0, 00021, (0, 249, 102, 444)
+vehicles_0, 00021, (125, 193, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_6, 00021, (80, 21, 92, 53)
+vehicles_6 color: black
+vehicles_63 color: dimgray
+vehicles_8 color: black
+vehicles_64 color: linen
+vehicles_10 color: sandybrown
+ground_1, 00021, (150, 445, 186, 480)
+static_2, 00021, (116, 376, 168, 480)
+static_49, 00021, (117, 451, 140, 480)
+pedestrian_7_color_ivory appear and walk from near-left to near-left and maintain fixed pace
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+vehicles_63_color_dimgray appear and move from near-right to near-right and maintains constant speed
+vehicles_8_color_black appear and move from near-right to near-right and maintains constant speed
+vehicles_64_color_linen appear and move from near-left to near-left and maintains constant speed
+pedestrian_7_color_ivory comes close to sidewalk_13
+vehicles_0_color_floralwhite comes close to vehicles_8_color_black,vehicles_64_color_linen,vehicles_6_color_black,vehicles_63_color_dimgray
+pedestrian_7_color_ivory maintains constant distance with sidewalk_16,vehicles_10_color_sandybrown,vehicles_63_color_dimgray,sidewalk_18,roadline_16,vehicles_64_color_linen,sidewalk_64,vegetation_0,vehicles_0_color_floralwhite,sidewalk_15,sidewalk_66,vehicles_8_color_black,sidewalk_63
+vehicles_0_color_floralwhite maintains constant distance with trafficsign_2,pedestrian_6_color_darkolivegreen,pedestrian_5_color_tan,vehicles_10_color_sandybrown,pedestrian_7_color_ivory
+vehicles_63_color_dimgray maintains constant distance with pedestrian_6_color_darkolivegreen,trafficsign_2,pedestrian_5_color_tan,pedestrian_7_color_ivory
+vehicles_8_color_black maintains constant distance with pedestrian_6_color_darkolivegreen,pole_5,pedestrian_4_color_dimgray,trafficsign_2,pedestrian_5_color_tan,pedestrian_7_color_ivory
+vehicles_64_color_linen maintains constant distance with pedestrian_6_color_darkolivegreen,pedestrian_7_color_ivory
+##############################################################################
+#####################################31-41#########################################
+building_104, 00031, (13, 147, 71, 214)
+building_106, 00031, (0, 147, 12, 210)
+building_111, 00031, (0, 396, 94, 480)
+building_113, 00031, (0, 208, 71, 249)
+building_122, 00031, (33, 36, 71, 66)
+building_14, 00031, (0, 54, 32, 85)
+building_123, 00031, (0, 0, 32, 65)
+pedestrian_7, 00031, (83, 74, 111, 87)
+pole_6, 00031, (0, 380, 114, 399)
+roadline_16, 00031, (131, 75, 270, 186)
+road_15, 00031, (86, 0, 270, 480)
+sidewalk_63, 00031, (86, 0, 186, 190)
+sidewalk_13, 00031, (100, 0, 124, 78)
+sidewalk_64, 00031, (85, 387, 96, 426)
+sidewalk_15, 00031, (86, 0, 114, 76)
+sidewalk_16, 00031, (132, 0, 228, 129)
+sidewalk_66, 00031, (93, 280, 201, 480)
+sidewalk_18, 00031, (99, 0, 189, 177)
+sidewalk_19, 00031, (101, 122, 132, 180)
+vegetation_0, 00031, (0, 240, 95, 363)
+vehicles_0, 00031, (125, 193, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_63, 00031, (86, 348, 105, 383)
+vehicles_63 color: dimgray
+vehicles_8, 00031, (94, 405, 126, 480)
+vehicles_8 color: black
+vehicles_64, 00031, (71, 93, 83, 125)
+vehicles_64 color: linen
+vehicles_10, 00031, (71, 155, 82, 179)
+vehicles_10 color: sandybrown
+vehicles_66 color: black
+vehicles_67 color: darkgray
+vehicles_68 color: darkslategray
+vehicles_69 color: darkslategray
+vehicles_70 color: sandybrown
+vehicles_72 color: dimgray
+vehicles_74 color: darkslategray
+vehicles_76 color: black
+vehicles_77 color: black
+ground_4, 00031, (147, 431, 185, 477)
+static_2, 00031, (122, 381, 187, 480)
+static_49, 00031, (114, 436, 149, 480)
+pedestrian_7_color_ivory  walk from near-left to near-left and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and accelerate
+vehicles_63_color_dimgray  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_8_color_black  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_64_color_linen  move from near-left to near-left and accelerate
+vehicles_10_color_sandybrown  move from near-front to near-left and accelerate
+vehicles_66_color_black appear and move from near-right to near-right and accelerate
+vehicles_67_color_darkgray appear and move from near-front to near-front and maintains constant speed
+vehicles_68_color_darkslategray appear and move from near-front to near-right and accelerate
+vehicles_69_color_darkslategray appear and move from near-left to near-left and maintains constant speedthen disappear
+vehicles_70_color_sandybrown appear and move from near-left to near-left and maintains constant speedthen disappear
+vehicles_72_color_dimgray appear and move from near-left to near-left and accelerate
+vehicles_74_color_darkslategray appear and move from near-front to near-front and accelerate
+vehicles_76_color_black appear and move from near-right to near-right and maintains constant speed
+pedestrian_7_color_ivory comes close to sidewalk_16,roadline_16,sidewalk_13,sidewalk_15,sidewalk_63
+vehicles_0_color_floralwhite comes close to vehicles_67_color_darkgray,vehicles_72_color_dimgray,vehicles_70_color_sandybrown,vehicles_8_color_black,vehicles_69_color_darkslategray,vehicles_10_color_sandybrown,vehicles_64_color_linen,vehicles_68_color_darkslategray,vehicles_74_color_darkslategray,vehicles_63_color_dimgray,vehicles_66_color_black
+pedestrian_7_color_ivory maintains constant distance with vehicles_10_color_sandybrown,vehicles_63_color_dimgray,sidewalk_18,vehicles_64_color_linen,vehicles_66_color_black,sidewalk_64,sidewalk_19,vegetation_0,vehicles_0_color_floralwhite,pole_7,sidewalk_20,vehicles_67_color_darkgray,sidewalk_66,pole_6,vehicles_8_color_black
+vehicles_0_color_floralwhite maintains constant distance with vehicles_76_color_black,trafficsign_3,pole_8,vehicles_77_color_black,pedestrian_7_color_ivory
+vehicles_63_color_dimgray maintains constant distance with trafficsign_3,pedestrian_7_color_ivory
+vehicles_64_color_linen maintains constant distance with trafficsign_3,pole_8,pedestrian_7_color_ivory
+vehicles_10_color_sandybrown maintains constant distance with pole_8,trafficsign_3,pedestrian_7_color_ivory
+vehicles_66_color_black maintains constant distance with trafficsign_3,pole_8,pedestrian_7_color_ivory
+vehicles_67_color_darkgray maintains constant distance with pole_8,trafficsign_3,pedestrian_7_color_ivory
+vehicles_68_color_darkslategray maintains constant distance with pole_8,pedestrian_9_color_dimgray,pedestrian_8_color_darkslategray,pole_7
+vehicles_69_color_darkslategray maintains constant distance with pedestrian_9_color_dimgray,pedestrian_8_color_darkslategray,pole_7
+vehicles_70_color_sandybrown maintains constant distance with pedestrian_9_color_dimgray,pedestrian_8_color_darkslategray,pole_7
+vehicles_72_color_dimgray maintains constant distance with pole_8
+vehicles_74_color_darkslategray maintains constant distance with pole_8
+##############################################################################
+#####################################41-51#########################################
+building_104, 00041, (0, 124, 72, 199)
+building_113, 00041, (0, 191, 71, 245)
+building_122, 00041, (26, 0, 57, 15)
+building_14, 00041, (0, 28, 26, 60)
+building_123, 00041, (0, 0, 26, 37)
+building_17, 00041, (36, 53, 63, 67)
+building_124, 00041, (36, 80, 63, 93)
+building_20, 00041, (0, 434, 32, 480)
+building_128, 00041, (39, 400, 64, 412)
+building_130, 00041, (26, 428, 74, 480)
+building_23, 00041, (39, 423, 64, 435)
+building_28, 00041, (37, 162, 63, 173)
+pedestrian_12, 00041, (84, 43, 109, 57)
+roadline_16, 00041, (134, 12, 270, 159)
+roadline_4, 00041, (156, 349, 251, 480)
+road_15, 00041, (97, 21, 270, 480)
+road_3, 00041, (84, 174, 97, 249)
+sidewalk_63, 00041, (96, 0, 168, 157)
+sidewalk_13, 00041, (102, 0, 119, 50)
+sidewalk_15, 00041, (98, 0, 110, 48)
+sidewalk_66, 00041, (97, 273, 228, 480)
+sidewalk_20, 00041, (113, 0, 187, 146)
+vegetation_0, 00041, (0, 232, 97, 332)
+vehicles_0, 00041, (125, 193, 221, 287)
+vehicles_0 color: floralwhite
+vehicles_64, 00041, (72, 2, 91, 57)
+vehicles_64 color: linen
+vehicles_10, 00041, (72, 104, 88, 128)
+vehicles_10 color: sandybrown
+vehicles_66, 00041, (87, 380, 108, 438)
+vehicles_66 color: black
+vehicles_67, 00041, (72, 304, 96, 338)
+vehicles_67 color: darkgray
+vehicles_68, 00041, (86, 355, 106, 379)
+vehicles_68 color: darkslategray
+vehicles_72, 00041, (76, 66, 88, 96)
+vehicles_72 color: dimgray
+vehicles_74, 00041, (75, 260, 89, 286)
+vehicles_74 color: darkslategray
+vehicles_76, 00041, (74, 440, 86, 480)
+vehicles_76 color: black
+vehicles_77, 00041, (106, 407, 122, 427)
+vehicles_77 color: black
+vehicles_20 color: darkgray
+vehicles_78 color: dimgray
+vehicles_22 color: antiquewhite
+vehicles_79 color: darkslategray
+vehicles_80 color: darkslateblue
+ground_4, 00041, (120, 369, 151, 431)
+static_2, 00041, (120, 349, 183, 480)
+static_43, 00041, (162, 435, 198, 480)
+static_49, 00041, (120, 432, 157, 480)
+static_53, 00041, (69, 408, 81, 430)
+pedestrian_12_color_crimson  walk from near-left to near-left and maintain fixed pacethen disappear
+pedestrian_51_color_black appear and walk from near-right to near-right and maintain fixed pacethen disappear
+pedestrian_52_color_dimgray appear and walk from near-front to near-front and maintain fixed pace
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+vehicles_64_color_linen  move from near-left to near-left and maintains constant speed
+vehicles_10_color_sandybrown  move from near-left to near-left and maintains constant speed
+vehicles_66_color_black  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_67_color_darkgray  move from near-right to near-right and maintains constant speed
+vehicles_68_color_darkslategray  move from near-right to near-right and maintains constant speed
+vehicles_72_color_dimgray  move from near-left to near-left and maintains constant speedthen disappear
+vehicles_74_color_darkslategray  move from near-front to near-front and maintains constant speed
+vehicles_76_color_black  move from near-right to near-right and maintains constant speed
+vehicles_77_color_black  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_20_color_darkgray appear and move from near-front to near-left and maintains constant speed
+vehicles_78_color_dimgray appear and move from near-right to near-right and maintains constant speed
+vehicles_22_color_antiquewhite appear and move from near-front to near-front and maintains constant speed
+vehicles_79_color_darkslategray appear and move from near-right to near-right and maintains constant speed
+pedestrian_52_color_dimgray goes away from sidewalk_19,vehicles_10_color_sandybrown,vegetation_0
+pedestrian_12_color_crimson comes close to vehicles_64_color_linen,sidewalk_13
+pedestrian_51_color_black comes close to vehicles_64_color_linen,vehicles_10_color_sandybrown,vehicles_77_color_black
+pedestrian_52_color_dimgray comes close to vehicles_79_color_darkslategray,roadline_16,vehicles_64_color_linen,vehicles_68_color_darkslategray,vehicles_74_color_darkslategray,vehicles_66_color_black,vehicles_76_color_black,vehicles_0_color_floralwhite,vehicles_67_color_darkgray,sidewalk_66,roadline_4
+vehicles_0_color_floralwhite comes close to vehicles_78_color_dimgray,vehicles_67_color_darkgray,vehicles_72_color_dimgray,vehicles_76_color_black,vehicles_22_color_antiquewhite,vehicles_10_color_sandybrown,vehicles_79_color_darkslategray,vehicles_77_color_black,vehicles_64_color_linen,vehicles_68_color_darkslategray,vehicles_74_color_darkslategray,vehicles_66_color_black,vehicles_20_color_darkgray,pedestrian_52_color_dimgray
+pedestrian_12_color_crimson maintains constant distance with vehicles_78_color_dimgray,vehicles_72_color_dimgray,sidewalk_15,vehicles_77_color_black,roadline_4,pedestrian_51_color_black,vehicles_20_color_darkgray,vehicles_0_color_floralwhite,vehicles_67_color_darkgray,vehicles_76_color_black,sidewalk_20,vehicles_68_color_darkslategray,roadline_16,vehicles_74_color_darkslategray,vehicles_66_color_black,vegetation_0,vehicles_22_color_antiquewhite,sidewalk_63,sidewalk_66,vehicles_10_color_sandybrown,pole_9
+pedestrian_51_color_black maintains constant distance with vehicles_66_color_black,vehicles_74_color_darkslategray,sidewalk_13,vehicles_0_color_floralwhite,vehicles_20_color_darkgray,vehicles_78_color_dimgray,vegetation_0,vehicles_67_color_darkgray,vehicles_72_color_dimgray,vehicles_76_color_black,vehicles_22_color_antiquewhite,sidewalk_20,sidewalk_63,sidewalk_66,vehicles_68_color_darkslategray,roadline_4,roadline_16,pole_9,pedestrian_12_color_crimson
+pedestrian_52_color_dimgray maintains constant distance with pole_9,sidewalk_18,vehicles_78_color_dimgray,vehicles_20_color_darkgray,vehicles_80_color_darkslateblue,sidewalk_20,vehicles_22_color_antiquewhite,pedestrian_53_color_darkseagreen,pole_10,sidewalk_63
+vehicles_0_color_floralwhite maintains constant distance with vehicles_80_color_darkslateblue,pedestrian_15_color_dimgray,trafficsign_4,pedestrian_51_color_black,pedestrian_12_color_crimson
+vehicles_10_color_sandybrown maintains constant distance with pedestrian_15_color_dimgray,trafficsign_4,pedestrian_12_color_crimson
+vehicles_66_color_black maintains constant distance with pedestrian_15_color_dimgray,trafficsign_4,pedestrian_51_color_black,pedestrian_12_color_crimson
+vehicles_67_color_darkgray maintains constant distance with trafficsign_4,pedestrian_15_color_dimgray,pedestrian_51_color_black,pedestrian_12_color_crimson
+vehicles_68_color_darkslategray maintains constant distance with pedestrian_15_color_dimgray,trafficsign_4,pedestrian_51_color_black,pedestrian_12_color_crimson
+vehicles_74_color_darkslategray maintains constant distance with pedestrian_15_color_dimgray,trafficsign_4,pedestrian_51_color_black,pedestrian_12_color_crimson
+vehicles_76_color_black maintains constant distance with trafficsign_4,pedestrian_15_color_dimgray,pedestrian_51_color_black,pedestrian_12_color_crimson
+vehicles_20_color_darkgray maintains constant distance with pedestrian_15_color_dimgray,trafficsign_4,pedestrian_52_color_dimgray,pedestrian_51_color_black,pedestrian_12_color_crimson
+vehicles_78_color_dimgray maintains constant distance with pedestrian_15_color_dimgray,trafficsign_4,pedestrian_12_color_crimson,pedestrian_52_color_dimgray,pedestrian_51_color_black
+vehicles_22_color_antiquewhite maintains constant distance with pedestrian_15_color_dimgray,trafficsign_4,pedestrian_51_color_black,pedestrian_12_color_crimson,pedestrian_52_color_dimgray
+vehicles_79_color_darkslategray maintains constant distance with pole_10,pole_9
+##############################################################################
+#####################################51-61#########################################
+building_104, 00051, (0, 48, 72, 140)
+building_113, 00051, (0, 134, 72, 198)
+building_20, 00051, (0, 392, 33, 461)
+building_130, 00051, (0, 391, 75, 480)
+building_28, 00051, (27, 89, 62, 106)
+building_30, 00051, (5, 434, 30, 459)
+building_31, 00051, (42, 65, 62, 80)
+building_32, 00051, (73, 153, 84, 193)
+pedestrian_52, 00051, (95, 147, 137, 169)
+pedestrian_53, 00051, (87, 465, 109, 480)
+pedestrian_18, 00051, (91, 185, 129, 196)
+roadline_16, 00051, (126, 0, 198, 208)
+roadline_4, 00051, (158, 281, 270, 408)
+road_15, 00051, (141, 0, 270, 399)
+road_3, 00051, (90, 0, 129, 187)
+road_17, 00051, (85, 423, 96, 465)
+sidewalk_66, 00051, (138, 273, 270, 467)
+sidewalk_19, 00051, (130, 0, 145, 19)
+vegetation_0, 00051, (0, 306, 135, 381)
+vehicles_0, 00051, (125, 192, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_64, 00051, (83, 0, 105, 21)
+vehicles_64 color: linen
+vehicles_10, 00051, (73, 0, 99, 34)
+vehicles_10 color: sandybrown
+vehicles_67, 00051, (74, 279, 113, 315)
+vehicles_67 color: darkgray
+vehicles_68, 00051, (103, 366, 151, 480)
+vehicles_68 color: darkslategray
+vehicles_74, 00051, (77, 222, 99, 263)
+vehicles_74 color: darkslategray
+vehicles_76, 00051, (74, 428, 88, 474)
+vehicles_76 color: black
+vehicles_20, 00051, (81, 103, 99, 147)
+vehicles_20 color: darkgray
+vehicles_78 color: dimgray
+vehicles_22, 00051, (82, 166, 97, 210)
+vehicles_22 color: antiquewhite
+vehicles_79, 00051, (90, 360, 108, 426)
+vehicles_79 color: darkslategray
+vehicles_80, 00051, (77, 259, 97, 274)
+vehicles_80 color: darkslateblue
+vehicles_82, 00051, (78, 366, 89, 396)
+vehicles_82 color: sienna
+vehicles_26 color: midnightblue
+vehicles_27 color: darkslategray
+vehicles_28 color: darkslategray
+vehicles_29 color: darkslateblue
+ground_4, 00051, (135, 349, 216, 480)
+static_2, 00051, (120, 285, 223, 480)
+static_44, 00051, (126, 321, 147, 350)
+static_49, 00051, (118, 345, 174, 480)
+static_53, 00051, (69, 387, 81, 410)
+pedestrian_52_color_dimgray  walk from near-left to near-left and increase pacethen disappear
+pedestrian_18_color_darkolivegreen appear and walk from near-front to near-left and increase pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+vehicles_64_color_linen  move from near-left to near-left and maintains constant speed
+vehicles_10_color_sandybrown  move from near-left to near-front and maintains constant speed
+vehicles_67_color_darkgray  move from near-front to near-right and deceleratethen disappear
+vehicles_68_color_darkslategray  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_74_color_darkslategray  move from near-front to near-right and acceleratethen disappear
+vehicles_20_color_darkgray  move from near-left to near-front and maintains constant speed
+vehicles_22_color_antiquewhite  move from near-front to near-right and maintains constant speed
+vehicles_79_color_darkslategray  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_80_color_darkslateblue  move from near-front to near-right and acceleratethen disappear
+vehicles_26_color_midnightblue appear and move from near-left to near-left and maintains constant speedthen disappear
+vehicles_0_color_floralwhite collides with trafficsign_7,trafficsign_6,trafficlight_3,trafficsign_5
+vehicles_67_color_darkgray collides with trafficlight_3
+vehicles_74_color_darkslategray collides with trafficlight_3
+pedestrian_52_color_dimgray goes away from vegetation_0
+pedestrian_18_color_darkolivegreen goes away from vehicles_74_color_darkslategray,vehicles_80_color_darkslateblue,vehicles_67_color_darkgray,vegetation_0,trafficlight_3,pole_11,vehicles_82_color_sienna
+pedestrian_52_color_dimgray comes close to roadline_16,vehicles_64_color_linen,vehicles_68_color_darkslategray,pedestrian_19_color_sienna,vehicles_76_color_black,vehicles_20_color_darkgray,sidewalk_66,roadline_4,pedestrian_18_color_darkolivegreen
+pedestrian_18_color_darkolivegreen comes close to vehicles_20_color_darkgray,sidewalk_66,roadline_4,roadline_16,vehicles_64_color_linen,pedestrian_52_color_dimgray
+vehicles_0_color_floralwhite comes close to vehicles_67_color_darkgray,vehicles_76_color_black,vehicles_22_color_antiquewhite,vehicles_82_color_sienna,vehicles_26_color_midnightblue,vehicles_28_color_darkslategray,vehicles_10_color_sandybrown,vehicles_79_color_darkslategray,vehicles_29_color_darkslateblue,vehicles_64_color_linen,vehicles_68_color_darkslategray,vehicles_74_color_darkslategray,vehicles_20_color_darkgray,vehicles_80_color_darkslateblue
+vehicles_64_color_linen comes close to trafficlight_3,trafficsign_6,vehicles_0_color_floralwhite,pedestrian_18_color_darkolivegreen,pedestrian_52_color_dimgray
+vehicles_10_color_sandybrown comes close to trafficlight_3,vehicles_0_color_floralwhite
+vehicles_20_color_darkgray comes close to trafficlight_3,trafficsign_6,pedestrian_52_color_dimgray,vehicles_0_color_floralwhite,pedestrian_18_color_darkolivegreen
+vehicles_22_color_antiquewhite comes close to trafficlight_3,vehicles_0_color_floralwhite
+vehicles_26_color_midnightblue comes close to trafficlight_3,vehicles_0_color_floralwhite
+pedestrian_52_color_dimgray maintains constant distance with vehicles_10_color_sandybrown,vehicles_79_color_darkslategray,vehicles_74_color_darkslategray,trafficsign_5,vehicles_82_color_sienna,trafficlight_3,trafficsign_6,vehicles_78_color_dimgray,sidewalk_19,trafficsign_7,vehicles_80_color_darkslateblue,vehicles_67_color_darkgray,vehicles_22_color_antiquewhite,pole_11,pedestrian_53_color_darkseagreen,vehicles_26_color_midnightblue
+pedestrian_18_color_darkolivegreen maintains constant distance with trafficsign_5,sidewalk_19,trafficsign_7,vehicles_78_color_dimgray,vehicles_22_color_antiquewhite,vehicles_76_color_black,vehicles_79_color_darkslategray,vehicles_10_color_sandybrown,vehicles_68_color_darkslategray,trafficsign_6,vehicles_26_color_midnightblue
+vehicles_0_color_floralwhite maintains constant distance with vehicles_78_color_dimgray,vehicles_27_color_darkslategray
+vehicles_64_color_linen maintains constant distance with trafficsign_5,trafficsign_7
+vehicles_10_color_sandybrown maintains constant distance with pole_11,trafficsign_6,pedestrian_52_color_dimgray,pedestrian_18_color_darkolivegreen
+vehicles_74_color_darkslategray maintains constant distance with trafficsign_7,trafficsign_5,trafficsign_6,pedestrian_52_color_dimgray
+vehicles_20_color_darkgray maintains constant distance with trafficsign_5,trafficsign_7
+vehicles_22_color_antiquewhite maintains constant distance with trafficsign_7,trafficsign_5,trafficsign_6,pedestrian_18_color_darkolivegreen,pedestrian_52_color_dimgray
+vehicles_79_color_darkslategray maintains constant distance with trafficlight_3,pedestrian_52_color_dimgray,pedestrian_18_color_darkolivegreen
+vehicles_80_color_darkslateblue maintains constant distance with trafficsign_7,trafficsign_6,trafficlight_3,trafficsign_5,pedestrian_52_color_dimgray
+vehicles_26_color_midnightblue maintains constant distance with pole_11,sidewalk_66,pedestrian_52_color_dimgray,pedestrian_18_color_darkolivegreen,trafficsign_6
+pedestrian_52_color_dimgray enters into vehicles_0_color_floralwhite
+pedestrian_18_color_darkolivegreen enters into vehicles_0_color_floralwhite
+##############################################################################
+#####################################61-71#########################################
+building_104, 00061, (0, 288, 66, 407)
+building_113, 00061, (0, 407, 73, 480)
+building_127, 00061, (46, 297, 62, 310)
+building_28, 00061, (15, 349, 60, 369)
+building_31, 00061, (20, 321, 61, 338)
+building_32, 00061, (76, 411, 99, 480)
+building_33, 00061, (78, 308, 91, 349)
+building_35, 00061, (0, 184, 42, 209)
+building_36, 00061, (0, 12, 77, 178)
+building_37, 00061, (78, 396, 96, 424)
+building_41, 00061, (60, 402, 78, 417)
+pole_12, 00061, (121, 0, 144, 12)
+road_3, 00061, (102, 0, 270, 480)
+sidewalk_21, 00061, (128, 0, 158, 54)
+sidewalk_22, 00061, (133, 0, 164, 57)
+sidewalk_23, 00061, (120, 0, 151, 54)
+sidewalk_24, 00061, (88, 0, 124, 55)
+sidewalk_25, 00061, (98, 395, 112, 480)
+sidewalk_26, 00061, (101, 40, 117, 66)
+vegetation_0, 00061, (0, 237, 80, 338)
+vehicles_0, 00061, (125, 194, 222, 288)
+vehicles_0 color: floralwhite
+vehicles_64, 00061, (75, 40, 199, 175)
+vehicles_64 color: linen
+vehicles_10, 00061, (74, 160, 110, 212)
+vehicles_10 color: sandybrown
+vehicles_71 color: brown
+vehicles_73 color: dimgray
+vehicles_20, 00061, (95, 261, 140, 351)
+vehicles_20 color: darkgray
+vehicles_22, 00061, (112, 395, 167, 480)
+vehicles_22 color: antiquewhite
+vehicles_30, 00061, (79, 48, 90, 69)
+vehicles_30 color: darkslategray
+vehicles_31, 00061, (72, 0, 86, 21)
+vehicles_31 color: darkslategray
+static_12, 00061, (14, 91, 72, 110)
+static_13, 00061, (37, 81, 72, 94)
+static_14, 00061, (26, 75, 51, 86)
+vehicles_0_color_floralwhite  move from near-front to near-front and accelerate
+vehicles_64_color_linen  move from near-left to near-left and acceleratethen disappear
+vehicles_10_color_sandybrown  move from near-front to near-left and acceleratethen disappear
+vehicles_73_color_dimgray appear and move from near-left to near-left and maintains constant speedthen disappear
+vehicles_20_color_darkgray  move from near-front to near-right and maintains constant speedthen disappear
+vehicles_31_color_darkslategray appear and move from near-left to near-left and maintains constant speedthen disappear
+vehicles_0_color_floralwhite collides with vehicles_64_color_linen,vehicles_20_color_darkgray,vehicles_10_color_sandybrown
+vehicles_0_color_floralwhite comes close to vehicles_22_color_antiquewhite,vehicles_73_color_dimgray
+vehicles_0_color_floralwhite maintains constant distance with sidewalk_22,pedestrian_20_color_gray,sidewalk_21,vehicles_71_color_brown,vehicles_30_color_darkslategray,pole_12,terrain_0,vehicles_31_color_darkslategray
+vehicles_64_color_linen maintains constant distance with pole_12,sidewalk_21,sidewalk_22
+vehicles_10_color_sandybrown maintains constant distance with pole_12,sidewalk_21,sidewalk_22
+vehicles_20_color_darkgray maintains constant distance with sidewalk_22,sidewalk_21,pole_12,pedestrian_20_color_gray
+vehicles_31_color_darkslategray maintains constant distance with pole_12,sidewalk_21,sidewalk_22,vehicles_0_color_floralwhite
+##############################################################################
+#####################################71-81#########################################
+building_104, 00071, (0, 0, 75, 158)
+building_113, 00071, (0, 273, 75, 387)
+building_28, 00071, (0, 51, 57, 86)
+building_31, 00071, (1, 0, 56, 34)
+building_32, 00071, (75, 73, 105, 186)
+building_33, 00071, (84, 30, 117, 87)
+building_37, 00071, (80, 174, 105, 201)
+building_41, 00071, (59, 180, 82, 197)
+building_141, 00071, (62, 422, 78, 435)
+building_43, 00071, (78, 330, 96, 377)
+building_44, 00071, (78, 399, 93, 435)
+building_45, 00071, (74, 4, 94, 23)
+building_47, 00071, (63, 0, 75, 76)
+building_48, 00071, (61, 362, 79, 376)
+pedestrian_21, 00071, (92, 48, 133, 73)
+roadline_18, 00071, (149, 0, 191, 54)
+road_3, 00071, (112, 0, 270, 480)
+sidewalk_25, 00071, (107, 0, 144, 234)
+sidewalk_27, 00071, (129, 0, 149, 213)
+sidewalk_28, 00071, (133, 0, 153, 202)
+vegetation_0, 00071, (34, 456, 58, 480)
+vehicles_0, 00071, (125, 193, 228, 288)
+vehicles_0 color: floralwhite
+vehicles_32 color: brown
+vehicles_83 color: darkslategray
+vehicles_84 color: darkslateblue
+terrain_0, 00071, (101, 61, 115, 234)
+vehicles_0_color_floralwhite  move from near-front to near-front and decelerate
+vehicles_32_color_brown appear and move from near-right to near-right and decelerate
+vehicles_83_color_darkslategray appear and move from near-right to near-front and decelerate
+vehicles_84_color_darkslateblue appear and move from near-right to near-right and maintains constant speedthen disappear
+vehicles_0_color_floralwhite collides with vehicles_32_color_brown,trafficlight_1
+vehicles_0_color_floralwhite comes close to trafficsign_8,vehicles_84_color_darkslateblue,vehicles_83_color_darkslategray,terrain_0
+vehicles_32_color_brown comes close to terrain_0,trafficsign_8,trafficlight_1
+vehicles_83_color_darkslategray comes close to terrain_0,trafficsign_8,vehicles_0_color_floralwhite
+vehicles_84_color_darkslateblue comes close to terrain_0,vehicles_0_color_floralwhite
+vehicles_0_color_floralwhite maintains constant distance with roadline_18,pedestrian_21_color_gray,trafficlight_2
+vehicles_32_color_brown maintains constant distance with trafficlight_2
+vehicles_83_color_darkslategray maintains constant distance with trafficlight_1,trafficlight_2
+vehicles_84_color_darkslateblue maintains constant distance with trafficlight_1,trafficsign_8
+##############################################################################
+#####################################81-91#########################################
+building_104, 00081, (0, 38, 66, 117)
+building_115, 00081, (9, 330, 81, 393)
+building_134, 00081, (6, 52, 59, 74)
+building_44, 00081, (87, 0, 125, 59)
+building_51, 00081, (33, 253, 74, 287)
+building_52, 00081, (41, 286, 74, 317)
+building_53, 00081, (15, 218, 40, 240)
+building_54, 00081, (57, 196, 74, 215)
+building_56, 00081, (33, 301, 66, 334)
+building_58, 00081, (63, 39, 74, 120)
+building_60, 00081, (4, 354, 19, 417)
+pedestrian_22, 00081, (85, 153, 119, 165)
+pole_16, 00081, (73, 170, 131, 184)
+road_3, 00081, (129, 170, 270, 390)
+sidewalk_25, 00081, (102, 0, 270, 227)
+sidewalk_27, 00081, (138, 118, 270, 208)
+sidewalk_28, 00081, (171, 138, 270, 194)
+sidewalk_30, 00081, (90, 178, 101, 205)
+vegetation_0, 00081, (0, 82, 85, 167)
+vehicles_0, 00081, (125, 192, 221, 286)
+vehicles_0 color: floralwhite
+vehicles_32, 00081, (86, 304, 270, 480)
+vehicles_32 color: brown
+vehicles_83, 00081, (64, 271, 82, 291)
+vehicles_83 color: darkslategray
+vehicles_35 color: darkslategray
+vehicles_36 color: dimgray
+vehicles_37 color: darkslategray
+vehicles_38 color: darkslategray
+vehicles_39 color: black
+sky_1, 00081, (0, 216, 41, 414)
+terrain_0, 00081, (102, 0, 155, 151)
+pedestrian_22_color_lightgray appear and walk from near-left to near-left and maintain fixed pacethen disappear
+pedestrian_23_color_darkslategray appear and walk from near-right to near-right and increase pace
+pedestrian_24_color_gray appear and walk from near-left to near-left and increase pacethen disappear
+pedestrian_25_color_gray appear and walk from near-left to near-left and maintain fixed pacethen disappear
+pedestrian_26_color_darkslategray appear and walk from near-right to near-right and increase pace
+pedestrian_27_color_black appear and walk from near-right to near-right and maintain fixed pace
+vehicles_0_color_floralwhite  move from near-front to near-front and accelerate
+vehicles_83_color_darkslategray  move from near-front to near-left and accelerate
+vehicles_35_color_darkslategray appear and move from near-right to near-right and accelerate
+vehicles_36_color_dimgray appear and move from near-front to near-left and accelerate
+vehicles_37_color_darkslategray appear and move from near-left to near-left and maintains constant speed
+vehicles_38_color_darkslategray appear and move from near-right to near-right and maintains constant speed
+vehicles_0_color_floralwhite collides with vehicles_32_color_brown
+pedestrian_22_color_lightgray goes away from vegetation_0,terrain_0
+pedestrian_23_color_darkslategray goes away from vehicles_83_color_darkslategray,sidewalk_30,vehicles_36_color_dimgray,vehicles_37_color_darkslategray
+pedestrian_24_color_gray goes away from vehicles_83_color_darkslategray
+pedestrian_26_color_darkslategray goes away from vehicles_83_color_darkslategray,vehicles_36_color_dimgray,vehicles_37_color_darkslategray
+vehicles_0_color_floralwhite goes away from terrain_0
+pedestrian_22_color_lightgray comes close to sidewalk_28,trafficlight_2,pole_17,pole_16,sidewalk_25,vehicles_83_color_darkslategray,sidewalk_27,sidewalk_30,trafficsign_9,pedestrian_24_color_gray
+pedestrian_23_color_darkslategray comes close to vegetation_0,vehicles_0_color_floralwhite,trafficlight_2,pedestrian_26_color_darkslategray,sidewalk_28,sidewalk_25,vehicles_35_color_darkslategray,pole_17,sidewalk_31,sidewalk_27,pole_16,terrain_0,pedestrian_27_color_black,trafficsign_9
+pedestrian_24_color_gray comes close to terrain_0,sidewalk_30,vegetation_0,vehicles_0_color_floralwhite,sidewalk_28,sidewalk_25,vehicles_35_color_darkslategray,pole_17,sidewalk_31,sidewalk_27,pole_16,pedestrian_22_color_lightgray
+pedestrian_25_color_gray comes close to sidewalk_32,vegetation_0,sidewalk_30
+pedestrian_26_color_darkslategray comes close to vehicles_0_color_floralwhite,sidewalk_31,sidewalk_25,vehicles_35_color_darkslategray,pedestrian_23_color_darkslategray
+pedestrian_27_color_black comes close to vehicles_38_color_darkslategray,vehicles_35_color_darkslategray,vehicles_0_color_floralwhite,pedestrian_23_color_darkslategray
+vehicles_0_color_floralwhite comes close to vehicles_35_color_darkslategray,vehicles_38_color_darkslategray,vehicles_83_color_darkslategray,pedestrian_23_color_darkslategray,pedestrian_26_color_darkslategray,pedestrian_27_color_black,pedestrian_24_color_gray
+vehicles_83_color_darkslategray comes close to trafficlight_2,terrain_0,vehicles_0_color_floralwhite,pedestrian_22_color_lightgray
+pedestrian_22_color_lightgray maintains constant distance with vehicles_35_color_darkslategray,sidewalk_31,vehicles_0_color_floralwhite,vehicles_32_color_brown,pedestrian_26_color_darkslategray,pedestrian_25_color_gray,pedestrian_23_color_darkslategray
+pedestrian_23_color_darkslategray maintains constant distance with vehicles_38_color_darkslategray,pedestrian_25_color_gray,pedestrian_24_color_gray,sidewalk_65,sidewalk_33,terrain_1,sidewalk_32,vehicles_39_color_black,vehicles_32_color_brown,pedestrian_22_color_lightgray
+pedestrian_24_color_gray maintains constant distance with trafficsign_9,trafficlight_2,building_104,terrain_1,sidewalk_32,pedestrian_23_color_darkslategray
+pedestrian_25_color_gray maintains constant distance with vehicles_0_color_floralwhite,sidewalk_28,sidewalk_25,vehicles_35_color_darkslategray,pole_17,sidewalk_31,sidewalk_27,pole_16,trafficlight_2,vehicles_83_color_darkslategray,terrain_0,trafficsign_9,pedestrian_22_color_lightgray,pedestrian_23_color_darkslategray
+pedestrian_26_color_darkslategray maintains constant distance with pole_17,trafficlight_2,sidewalk_27,pole_16,terrain_1,sidewalk_32,terrain_0,vehicles_39_color_black,trafficsign_9,sidewalk_30,vehicles_38_color_darkslategray,vegetation_0,sidewalk_65,sidewalk_28,sidewalk_33,pedestrian_22_color_lightgray
+pedestrian_27_color_black maintains constant distance with sidewalk_65,sidewalk_28,sidewalk_33,pole_17,sidewalk_31,sidewalk_25,sidewalk_32,vehicles_37_color_darkslategray,vehicles_83_color_darkslategray,sidewalk_27,vehicles_39_color_black,sidewalk_30,vehicles_36_color_dimgray,vegetation_0
+vehicles_0_color_floralwhite maintains constant distance with vehicles_36_color_dimgray,trafficlight_2,terrain_1,vehicles_37_color_darkslategray,vehicles_39_color_black,trafficsign_9,pedestrian_22_color_lightgray,pedestrian_25_color_gray
+vehicles_83_color_darkslategray maintains constant distance with terrain_1,trafficsign_9,pedestrian_27_color_black,pedestrian_25_color_gray
+vehicles_35_color_darkslategray maintains constant distance with trafficlight_2,terrain_0,terrain_1,trafficsign_9,pedestrian_22_color_lightgray,pedestrian_25_color_gray
+vehicles_37_color_darkslategray maintains constant distance with sidewalk_28,pole_17,sidewalk_25,sidewalk_27,sidewalk_30,vehicles_0_color_floralwhite,pedestrian_27_color_black
+vehicles_38_color_darkslategray maintains constant distance with pole_17,sidewalk_27,sidewalk_30,sidewalk_28,sidewalk_25,pedestrian_23_color_darkslategray,pedestrian_26_color_darkslategray
+##############################################################################
+#####################################91-101#########################################
+building_109, 00091, (0, 452, 80, 480)
+building_115, 00091, (3, 124, 82, 192)
+building_51, 00091, (14, 0, 76, 57)
+building_52, 00091, (32, 52, 75, 101)
+building_56, 00091, (25, 73, 65, 126)
+building_62, 00091, (10, 80, 24, 93)
+pedestrian_23, 00091, (98, 333, 142, 348)
+pedestrian_26, 00091, (129, 339, 190, 390)
+pedestrian_27, 00091, (101, 365, 133, 387)
+pedestrian_28, 00091, (95, 60, 130, 76)
+roadline_6, 00091, (102, 9, 162, 39)
+road_3, 00091, (163, 0, 270, 210)
+sidewalk_65, 00091, (84, 387, 111, 480)
+sidewalk_31, 00091, (103, 384, 115, 480)
+sidewalk_34, 00091, (90, 227, 101, 286)
+vegetation_0, 00091, (0, 162, 83, 283)
+vehicles_0, 00091, (125, 192, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_81 color: black
+vehicles_83, 00091, (60, 39, 93, 80)
+vehicles_83 color: darkslategray
+vehicles_35, 00091, (144, 347, 206, 423)
+vehicles_35 color: darkslategray
+vehicles_36, 00091, (85, 78, 105, 99)
+vehicles_36 color: dimgray
+vehicles_37, 00091, (83, 63, 98, 84)
+vehicles_37 color: darkslategray
+vehicles_38, 00091, (123, 372, 144, 398)
+vehicles_38 color: darkslategray
+vehicles_39, 00091, (107, 65, 132, 79)
+vehicles_39 color: black
+vehicles_40 color: dimgray
+sky_1, 00091, (0, 13, 33, 159)
+pedestrian_23_color_darkslategray  walk from near-right to near-right and decrease pace
+pedestrian_26_color_darkslategray  walk from near-right to near-right and increase pacethen disappear
+pedestrian_27_color_black  walk from near-right to near-left and decrease pacethen disappear
+pedestrian_29_color_black appear and walk from near-left to near-left and decrease pace
+pedestrian_30_color_black appear and walk from near-left to near-left and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and decelerate
+vehicles_81_color_black appear and move from near-right to near-left and decelerate
+vehicles_35_color_darkslategray  move from near-right to near-right and deceleratethen disappear
+vehicles_38_color_darkslategray  move from near-right to near-left and deceleratethen disappear
+vehicles_40_color_dimgray appear and move from near-right to near-right and decelerate
+vehicles_0_color_floralwhite collides with roadline_7,vehicles_35_color_darkslategray,vehicles_38_color_darkslategray,vehicles_81_color_black
+pedestrian_23_color_darkslategray goes away from sidewalk_34,wall_0,pedestrian_30_color_black,vegetation_0
+pedestrian_26_color_darkslategray goes away from sidewalk_34,wall_0,vegetation_0
+pedestrian_27_color_black goes away from sidewalk_65,wall_0,vegetation_0,vehicles_81_color_black
+pedestrian_29_color_black goes away from sidewalk_68,sidewalk_31
+vehicles_0_color_floralwhite goes away from wall_0
+vehicles_35_color_darkslategray goes away from wall_0
+vehicles_38_color_darkslategray goes away from wall_0
+pedestrian_23_color_darkslategray comes close to vehicles_38_color_darkslategray,vehicles_40_color_dimgray,pedestrian_26_color_darkslategray,vehicles_0_color_floralwhite,sidewalk_65,vehicles_35_color_darkslategray,roadline_7,pedestrian_29_color_black,sidewalk_31,pedestrian_27_color_black,vehicles_81_color_black
+pedestrian_26_color_darkslategray comes close to vehicles_0_color_floralwhite,sidewalk_31,vehicles_38_color_darkslategray,vehicles_35_color_darkslategray,pedestrian_23_color_darkslategray
+pedestrian_27_color_black comes close to vehicles_35_color_darkslategray,sidewalk_31,vehicles_37_color_darkslategray,vehicles_83_color_darkslategray,sidewalk_34,vehicles_39_color_black,vehicles_38_color_darkslategray,vehicles_36_color_dimgray,pedestrian_23_color_darkslategray
+pedestrian_29_color_black comes close to sidewalk_65,sidewalk_36,sidewalk_34,vehicles_40_color_dimgray,vehicles_81_color_black,vehicles_38_color_darkslategray,vegetation_0,vehicles_0_color_floralwhite,pedestrian_23_color_darkslategray
+pedestrian_30_color_black comes close to sidewalk_31,sidewalk_34,vehicles_81_color_black
+vehicles_0_color_floralwhite comes close to vehicles_40_color_dimgray,pedestrian_23_color_darkslategray,pedestrian_26_color_darkslategray,pedestrian_29_color_black
+pedestrian_23_color_darkslategray maintains constant distance with pedestrian_28_color_black,vehicles_36_color_dimgray,sidewalk_68,roadline_6,wall_1,sidewalk_36,vehicles_37_color_darkslategray,vehicles_83_color_darkslategray,vehicles_39_color_black
+pedestrian_26_color_darkslategray maintains constant distance with roadline_6,vehicles_37_color_darkslategray,vehicles_83_color_darkslategray,wall_1,vehicles_39_color_black,vehicles_81_color_black,vehicles_36_color_dimgray,vehicles_40_color_dimgray,sidewalk_65
+pedestrian_27_color_black maintains constant distance with roadline_6,vehicles_40_color_dimgray,wall_1
+pedestrian_29_color_black maintains constant distance with vehicles_35_color_darkslategray,roadline_7
+pedestrian_30_color_black maintains constant distance with sidewalk_68,vehicles_40_color_dimgray,vehicles_38_color_darkslategray,vehicles_0_color_floralwhite,sidewalk_65,vegetation_0,roadline_7
+vehicles_0_color_floralwhite maintains constant distance with vehicles_36_color_dimgray,roadline_6,vehicles_37_color_darkslategray,vehicles_83_color_darkslategray,wall_1,vehicles_39_color_black,pedestrian_30_color_black
+vehicles_81_color_black maintains constant distance with wall_0,building_109,wall_1,roadline_7,pedestrian_26_color_darkslategray
+vehicles_35_color_darkslategray maintains constant distance with roadline_6,wall_1,pedestrian_29_color_black
+vehicles_38_color_darkslategray maintains constant distance with roadline_6,wall_1,pedestrian_30_color_black
+vehicles_40_color_dimgray maintains constant distance with wall_0,building_109,wall_1,pedestrian_30_color_black,pedestrian_27_color_black,pedestrian_26_color_darkslategray
+pedestrian_27_color_black enters into vehicles_0_color_floralwhite
+##############################################################################
+#####################################101-111#########################################
+building_151, 00101, (0, 290, 71, 319)
+building_155, 00101, (45, 263, 71, 276)
+pedestrian_31, 00101, (60, 309, 99, 323)
+road_3, 00101, (120, 0, 270, 156)
+sidewalk_65, 00101, (77, 259, 93, 311)
+vegetation_0, 00101, (0, 318, 70, 480)
+vehicles_0, 00101, (82, 74, 270, 387)
+vehicles_0 color: floralwhite
+vehicles_75 color: darkslategray
+vehicles_81, 00101, (48, 0, 144, 154)
+vehicles_81 color: black
+vehicles_40, 00101, (66, 321, 81, 344)
+vehicles_40 color: dimgray
+sky_1, 00101, (0, 253, 45, 297)
+pedestrian_23_color_darkslategray  walk from near-right to near-right and increase pacethen disappear
+pedestrian_29_color_black  n/a from near-left to near-left and maintain fixed pacethen disappear
+pedestrian_31_color_black appear and walk from near-front to near-left and increase pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and accelerate
+vehicles_75_color_darkslategray appear and move from near-right to near-right and decelerate
+vehicles_40_color_dimgray  move from near-right to near-right and accelerate
+pedestrian_31_color_black goes away from vehicles_75_color_darkslategray
+vehicles_0_color_floralwhite goes away from vehicles_81_color_black
+vehicles_75_color_darkslategray goes away from terrain_2,pedestrian_31_color_black
+vehicles_40_color_dimgray goes away from terrain_2
+pedestrian_23_color_darkslategray comes close to vehicles_0_color_floralwhite
+pedestrian_29_color_black comes close to pole_18,pedestrian_32_color_black,sidewalk_34
+pedestrian_31_color_black comes close to sidewalk_37,vegetation_0,vehicles_40_color_dimgray,sidewalk_65,terrain_2,sidewalk_31,sidewalk_36
+vehicles_0_color_floralwhite comes close to terrain_2,vehicles_40_color_dimgray,vehicles_75_color_darkslategray,pedestrian_23_color_darkslategray
+pedestrian_23_color_darkslategray maintains constant distance with sidewalk_37,vegetation_0,vehicles_40_color_dimgray,sidewalk_65,pedestrian_32_color_black,pedestrian_29_color_black,sidewalk_31,pole_18,sidewalk_36,vehicles_75_color_darkslategray,sidewalk_34,pedestrian_31_color_black
+pedestrian_29_color_black maintains constant distance with sidewalk_65,sidewalk_31,vehicles_75_color_darkslategray,vehicles_40_color_dimgray,vehicles_81_color_black,pedestrian_31_color_black,vegetation_0,vehicles_0_color_floralwhite,pedestrian_23_color_darkslategray
+pedestrian_31_color_black maintains constant distance with vehicles_81_color_black,building_146,pedestrian_23_color_darkslategray,pole_18,sidewalk_34,pedestrian_29_color_black
+vehicles_0_color_floralwhite maintains constant distance with building_146,pedestrian_29_color_black
+vehicles_75_color_darkslategray maintains constant distance with building_146,pedestrian_23_color_darkslategray,pedestrian_29_color_black
+vehicles_40_color_dimgray maintains constant distance with building_146,pedestrian_29_color_black,pedestrian_23_color_darkslategray
+pedestrian_31_color_black enters into vehicles_0_color_floralwhite
+##############################################################################
+#####################################111-121#########################################
+sidewalk_65, 00111, (86, 0, 252, 341)
+sidewalk_31, 00111, (243, 0, 270, 339)
+sidewalk_36, 00111, (252, 336, 270, 351)
+sidewalk_38, 00111, (183, 345, 261, 383)
+sidewalk_39, 00111, (205, 339, 252, 351)
+vegetation_0, 00111, (0, 320, 96, 480)
+vehicles_0, 00111, (125, 193, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_75, 00111, (79, 413, 99, 470)
+vehicles_75 color: darkslategray
+vehicles_40, 00111, (81, 324, 115, 380)
+vehicles_40 color: dimgray
+vehicles_41 color: dimgray
+vehicles_85 color: dimgray
+sky_1, 00111, (0, 240, 58, 261)
+terrain_2, 00111, (88, 0, 198, 223)
+pedestrian_33_color_darkslategray appear and walk from near-front to near-left and decrease pacethen disappear
+pedestrian_34_color_black appear and walk from near-left to near-left and maintain fixed pace
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+vehicles_75_color_darkslategray  move from near-right to near-right and maintains constant speed
+vehicles_40_color_dimgray  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_41_color_dimgray appear and move from near-front to near-front and maintains constant speed
+pedestrian_33_color_darkslategray goes away from vegetation_0,vehicles_75_color_darkslategray
+pedestrian_34_color_black goes away from vegetation_0
+vehicles_0_color_floralwhite goes away from terrain_2
+pedestrian_33_color_darkslategray comes close to vehicles_0_color_floralwhite,roadline_17,sidewalk_65,sidewalk_39,sidewalk_38
+pedestrian_34_color_black comes close to sidewalk_39,sidewalk_38,vehicles_0_color_floralwhite,sidewalk_65,roadline_17,terrain_2
+vehicles_0_color_floralwhite comes close to vehicles_40_color_dimgray,vehicles_41_color_dimgray,vehicles_75_color_darkslategray,pedestrian_33_color_darkslategray,pedestrian_34_color_black
+vehicles_75_color_darkslategray comes close to terrain_2,vehicles_0_color_floralwhite
+vehicles_40_color_dimgray comes close to terrain_2,vehicles_0_color_floralwhite
+vehicles_41_color_dimgray comes close to terrain_2,vehicles_0_color_floralwhite
+pedestrian_33_color_darkslategray maintains constant distance with pedestrian_34_color_black,sidewalk_67,vehicles_40_color_dimgray,terrain_2,vehicles_41_color_dimgray,vehicles_85_color_dimgray,pole_19
+pedestrian_34_color_black maintains constant distance with sidewalk_67,vehicles_40_color_dimgray,vehicles_41_color_dimgray,vehicles_75_color_darkslategray,vehicles_85_color_dimgray,pedestrian_33_color_darkslategray
+vehicles_0_color_floralwhite maintains constant distance with vehicles_85_color_dimgray
+##############################################################################
+#####################################121-131#########################################
+building_147, 00121, (45, 162, 78, 177)
+building_150, 00121, (39, 185, 72, 214)
+pedestrian_33, 00121, (109, 2, 198, 42)
+pedestrian_34, 00121, (93, 24, 141, 49)
+pedestrian_35, 00121, (90, 63, 135, 81)
+pole_20, 00121, (0, 150, 134, 166)
+pole_21, 00121, (0, 15, 107, 41)
+roadline_17, 00121, (196, 292, 270, 351)
+sidewalk_65, 00121, (102, 0, 270, 174)
+sidewalk_67, 00121, (118, 370, 136, 426)
+sidewalk_38, 00121, (109, 136, 270, 186)
+sidewalk_39, 00121, (111, 119, 270, 178)
+vegetation_0, 00121, (0, 206, 93, 390)
+vehicles_0, 00121, (125, 197, 222, 291)
+vehicles_0 color: floralwhite
+vehicles_65 color: dimgray
+vehicles_75, 00121, (78, 342, 100, 399)
+vehicles_75 color: darkslategray
+vehicles_41, 00121, (80, 243, 93, 264)
+vehicles_41 color: dimgray
+vehicles_85, 00121, (78, 180, 90, 206)
+vehicles_85 color: dimgray
+vehicles_43 color: sienna
+vehicles_44 color: darkslategray
+vehicles_86 color: darkslategray
+sky_1, 00121, (0, 191, 39, 237)
+pedestrian_35_color_black appear and walk from near-left to near-left and maintain fixed pacethen disappear
+pedestrian_38_color_darkslategray appear and walk from near-front to near-right and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and accelerate
+vehicles_65_color_dimgray appear and move from near-right to near-right and maintains constant speedthen disappear
+vehicles_41_color_dimgray  move from near-front to near-right and acceleratethen disappear
+vehicles_85_color_dimgray  move from near-front to near-right and maintains constant speedthen disappear
+vehicles_0_color_floralwhite collides with trafficsign_11,trafficsign_10
+pedestrian_35_color_black goes away from vegetation_0,vehicles_41_color_dimgray,vehicles_75_color_darkslategray
+pedestrian_38_color_darkslategray goes away from vegetation_0
+vehicles_0_color_floralwhite goes away from vehicles_65_color_dimgray
+vehicles_65_color_dimgray goes away from terrain_2,vehicles_0_color_floralwhite
+pedestrian_35_color_black comes close to sidewalk_65,sidewalk_39,pole_20,pole_21,sidewalk_38,vehicles_0_color_floralwhite,roadline_17
+pedestrian_38_color_darkslategray comes close to vehicles_0_color_floralwhite,sidewalk_38,roadline_17,sidewalk_39
+vehicles_0_color_floralwhite comes close to terrain_2,vehicles_41_color_dimgray,vehicles_85_color_dimgray,vehicles_43_color_sienna,pedestrian_38_color_darkslategray,pedestrian_35_color_black
+pedestrian_35_color_black maintains constant distance with terrain_2,vehicles_85_color_dimgray,pedestrian_33_color_darkslategray,vehicles_65_color_dimgray,sidewalk_67
+pedestrian_38_color_darkslategray maintains constant distance with pole_21,pedestrian_40_color_darkslategray,pedestrian_39_color_darkslategray,trafficsign_10,sidewalk_65,trafficsign_11,pole_22,vehicles_85_color_dimgray
+vehicles_0_color_floralwhite maintains constant distance with vehicles_75_color_darkslategray,pedestrian_33_color_darkslategray,trafficsign_18,vehicles_86_color_darkslategray,vehicles_44_color_darkslategray
+vehicles_65_color_dimgray maintains constant distance with pedestrian_34_color_black,pedestrian_35_color_black
+vehicles_41_color_dimgray maintains constant distance with terrain_2,pedestrian_33_color_darkslategray
+vehicles_85_color_dimgray maintains constant distance with terrain_2,pedestrian_33_color_darkslategray,trafficsign_10,pedestrian_38_color_darkslategray,pedestrian_35_color_black
+##############################################################################
+#####################################131-141#########################################
+building_116, 00131, (49, 34, 75, 56)
+building_161, 00131, (50, 269, 78, 309)
+pole_21, 00131, (30, 456, 125, 480)
+pole_22, 00131, (123, 7, 270, 58)
+roadline_17, 00131, (186, 290, 270, 401)
+road_20, 00131, (85, 170, 135, 307)
+sidewalk_65, 00131, (146, 36, 270, 150)
+sidewalk_38, 00131, (148, 150, 270, 186)
+sidewalk_39, 00131, (146, 137, 270, 160)
+sidewalk_40, 00131, (118, 399, 136, 480)
+sidewalk_70, 00131, (99, 353, 117, 456)
+sidewalk_71, 00131, (107, 141, 148, 162)
+vegetation_0, 00131, (0, 0, 117, 390)
+vehicles_0, 00131, (125, 195, 222, 290)
+vehicles_0 color: floralwhite
+vehicles_87 color: darkgray
+trafficsign_10, 00131, (75, 0, 171, 78)
+trafficsign_11, 00131, (175, 38, 214, 101)
+trafficsign_18, 00131, (67, 303, 82, 315)
+trafficsign_13, 00131, (217, 47, 270, 72)
+static_45, 00131, (111, 84, 129, 126)
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+vehicles_87_color_darkgray appear and move from near-right to near-right and decelerate
+vehicles_0_color_floralwhite crashes into pole_22
+vehicles_0_color_floralwhite collides with trafficsign_11,trafficsign_10,trafficsign_13
+vehicles_0_color_floralwhite comes close to trafficsign_18,vehicles_87_color_darkgray
+vehicles_0_color_floralwhite maintains constant distance with trafficsign_19,pole_21
+vehicles_87_color_darkgray maintains constant distance with trafficsign_19
+##############################################################################
+#####################################141-151#########################################
+building_161, 00141, (24, 9, 98, 101)
+building_163, 00141, (56, 103, 72, 125)
+building_78, 00141, (11, 229, 75, 293)
+building_166, 00141, (15, 356, 102, 403)
+pole_41, 00141, (0, 323, 156, 345)
+road_20, 00141, (87, 0, 270, 465)
+sidewalk_70, 00141, (93, 300, 241, 480)
+sidewalk_72, 00141, (88, 297, 257, 480)
+sidewalk_74, 00141, (89, 291, 270, 480)
+sidewalk_75, 00141, (99, 0, 133, 154)
+sidewalk_47, 00141, (107, 390, 144, 480)
+vegetation_0, 00141, (0, 0, 129, 255)
+vehicles_0, 00141, (125, 185, 222, 279)
+vehicles_0 color: floralwhite
+vehicles_87, 00141, (75, 276, 91, 293)
+vehicles_87 color: darkgray
+trafficsign_19, 00141, (66, 41, 90, 62)
+static_33, 00141, (118, 349, 141, 366)
+static_45, 00141, (127, 333, 141, 354)
+vehicles_0_color_floralwhite  move from near-front to near-front and decelerate
+vehicles_87_color_darkgray  move from near-front to near-front and decelerate
+vehicles_0_color_floralwhite comes close to vehicles_87_color_darkgray
+vehicles_87_color_darkgray comes close to trafficsign_19,vehicles_0_color_floralwhite
+vehicles_0_color_floralwhite maintains constant distance with trafficsign_19
+##############################################################################
+#####################################151-161#########################################
+building_161, 00151, (3, 0, 108, 81)
+building_78, 00151, (0, 225, 76, 289)
+building_165, 00151, (39, 459, 70, 480)
+building_166, 00151, (12, 378, 139, 480)
+building_81, 00151, (51, 284, 71, 307)
+building_167, 00151, (47, 382, 70, 414)
+building_168, 00151, (20, 3, 42, 26)
+building_84, 00151, (12, 393, 24, 471)
+pedestrian_41, 00151, (90, 411, 131, 428)
+pole_42, 00151, (111, 450, 192, 480)
+roadline_22, 00151, (103, 285, 270, 307)
+road_20, 00151, (101, 0, 270, 242)
+road_8, 00151, (80, 184, 102, 264)
+sidewalk_70, 00151, (113, 357, 220, 480)
+sidewalk_72, 00151, (105, 327, 238, 480)
+sidewalk_74, 00151, (109, 327, 266, 480)
+sidewalk_75, 00151, (99, 0, 150, 175)
+sidewalk_76, 00151, (111, 0, 155, 141)
+vegetation_0, 00151, (0, 0, 144, 249)
+vehicles_0, 00151, (125, 192, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_87, 00151, (81, 289, 114, 327)
+vehicles_87 color: darkgray
+vehicles_88 color: black
+vehicles_89 color: black
+vehicles_49 color: black
+static_34, 00151, (107, 377, 123, 391)
+static_45, 00151, (112, 349, 126, 380)
+static_55, 00151, (69, 179, 83, 201)
+static_56, 00151, (142, 429, 182, 462)
+dynamic_3, 00151, (107, 437, 132, 461)
+dynamic_4, 00151, (111, 427, 129, 438)
+pedestrian_54_color_dimgray appear and walk from near-front to near-right and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+vehicles_87_color_darkgray  move from near-front to near-right and acceleratethen disappear
+vehicles_88_color_black appear and move from near-front to near-right and deceleratethen disappear
+vehicles_89_color_black appear and move from near-right to near-right and maintains constant speedthen disappear
+vehicles_49_color_black appear and move from near-right to near-right and maintains constant speed
+vehicles_88_color_black crashes into pole_44
+vehicles_0_color_floralwhite collides with vehicles_89_color_black
+pedestrian_54_color_dimgray goes away from sidewalk_77,vegetation_0
+pedestrian_54_color_dimgray comes close to vehicles_89_color_black,roadline_11,roadline_23,vehicles_87_color_darkgray,vehicles_49_color_black,vehicles_88_color_black,roadline_22
+vehicles_0_color_floralwhite comes close to vehicles_88_color_black,vehicles_49_color_black,vehicles_87_color_darkgray
+pedestrian_54_color_dimgray maintains constant distance with sidewalk_79,sidewalk_76,sidewalk_81,sidewalk_75,sidewalk_78,pole_44,sidewalk_80
+vehicles_0_color_floralwhite maintains constant distance with pole_42,pole_27,trafficsign_20,pole_43,pole_44
+vehicles_87_color_darkgray maintains constant distance with pole_42,pole_43,pole_27
+vehicles_88_color_black maintains constant distance with sidewalk_70,sidewalk_72,pole_43,pole_27
+vehicles_89_color_black maintains constant distance with pedestrian_42_color_darkslategray,trafficsign_20,pole_44,roadline_22
+vehicles_49_color_black maintains constant distance with trafficsign_20,pole_44
+pedestrian_54_color_dimgray enters into vehicles_0_color_floralwhite
+##############################################################################
+#####################################161-171#########################################
+building_78, 00161, (0, 208, 79, 329)
+building_81, 00161, (24, 287, 72, 364)
+building_171, 00161, (65, 110, 78, 123)
+pole_45, 00161, (31, 36, 120, 59)
+roadline_11, 00161, (138, 88, 270, 208)
+roadline_23, 00161, (119, 288, 270, 352)
+road_8, 00161, (87, 0, 270, 326)
+sidewalk_77, 00161, (92, 368, 123, 428)
+sidewalk_78, 00161, (95, 0, 207, 215)
+sidewalk_79, 00161, (110, 373, 151, 474)
+sidewalk_80, 00161, (95, 0, 220, 219)
+sidewalk_81, 00161, (98, 349, 147, 477)
+vegetation_0, 00161, (0, 0, 194, 239)
+vehicles_0, 00161, (125, 192, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_89, 00161, (248, 469, 270, 480)
+vehicles_89 color: black
+vehicles_49, 00161, (96, 412, 117, 434)
+vehicles_49 color: black
+vehicles_50, 00161, (95, 403, 114, 425)
+vehicles_50 color: black
+vehicles_90 color: black
+vehicles_52 color: black
+vehicles_53 color: black
+vehicles_91 color: black
+vehicles_55 color: darkolivegreen
+trafficsign_20, 00161, (14, 25, 33, 52)
+static_46, 00161, (114, 425, 134, 480)
+dynamic_12, 00161, (59, 451, 103, 469)
+dynamic_14, 00161, (60, 413, 95, 450)
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+vehicles_52_color_black appear and move from near-front to near-front and accelerate
+vehicles_53_color_black appear and move from near-front to near-right and accelerate
+vehicles_91_color_black appear and move from near-left to near-left and maintains constant speedthen disappear
+vehicles_55_color_darkolivegreen appear and move from near-right to near-right and accelerate
+vehicles_0_color_floralwhite collides with vehicles_89_color_black
+vehicles_0_color_floralwhite comes close to vehicles_91_color_black,vehicles_52_color_black,vehicles_53_color_black,vehicles_49_color_black,vehicles_50_color_black,vehicles_55_color_darkolivegreen
+vehicles_0_color_floralwhite maintains constant distance with vehicles_90_color_black,pole_45,trafficsign_20
+vehicles_53_color_black maintains constant distance with pole_46
+##############################################################################
+#####################################171-181#########################################
+building_152, 00171, (0, 365, 81, 480)
+building_78, 00171, (0, 7, 87, 238)
+building_81, 00171, (0, 182, 74, 342)
+building_88, 00171, (6, 317, 42, 365)
+building_89, 00171, (0, 318, 29, 371)
+pedestrian_55, 00171, (105, 328, 172, 344)
+pole_32, 00171, (27, 78, 54, 90)
+roadline_11, 00171, (144, 0, 270, 480)
+roadline_23, 00171, (246, 248, 270, 267)
+road_8, 00171, (97, 0, 203, 468)
+road_9, 00171, (91, 0, 115, 276)
+road_10, 00171, (82, 439, 93, 480)
+sidewalk_77, 00171, (108, 385, 171, 480)
+sidewalk_81, 00171, (117, 381, 180, 480)
+vegetation_0, 00171, (47, 28, 88, 87)
+vehicles_0, 00171, (125, 185, 223, 280)
+vehicles_0 color: floralwhite
+vehicles_61 color: dimgray
+vehicles_52, 00171, (86, 273, 121, 315)
+vehicles_52 color: black
+vehicles_53, 00171, (87, 348, 105, 400)
+vehicles_53 color: black
+vehicles_55, 00171, (66, 354, 79, 384)
+vehicles_55 color: darkolivegreen
+vehicles_56 color: black
+vehicles_0_color_floralwhite  move from near-front to near-front and decelerate
+vehicles_61_color_dimgray appear and move from near-left to near-left and maintains constant speed
+vehicles_52_color_black  move from near-front to near-right and deceleratethen disappear
+vehicles_53_color_black  move from near-right to near-right and maintains constant speedthen disappear
+vehicles_55_color_darkolivegreen  move from near-right to near-right and deceleratethen disappear
+vehicles_0_color_floralwhite comes close to vehicles_61_color_dimgray
+vehicles_0_color_floralwhite maintains constant distance with vehicles_52_color_black,vehicles_53_color_black,fence_1,fence_0,vehicles_55_color_darkolivegreen,vehicles_56_color_black
+vehicles_61_color_dimgray maintains constant distance with sidewalk_56
+##############################################################################
+#####################################181-191#########################################
+building_112, 00181, (42, 289, 76, 319)
+building_148, 00181, (14, 75, 61, 147)
+building_160, 00181, (24, 408, 127, 480)
+roadline_11, 00181, (124, 0, 270, 204)
+road_8, 00181, (140, 0, 270, 170)
+vegetation_0, 00181, (0, 30, 105, 360)
+vehicles_0, 00181, (125, 192, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_61, 00181, (73, 138, 124, 224)
+vehicles_61 color: dimgray
+static_47, 00181, (102, 90, 113, 114)
+pedestrian_45_color_black appear and walk from near-left to near-left and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and decelerate
+vehicles_61_color_dimgray  move from near-front to near-left and deceleratethen disappear
+vehicles_0_color_floralwhite comes close to vehicles_61_color_dimgray
+pedestrian_45_color_black maintains constant distance with vehicles_0_color_floralwhite,roadline_11,vegetation_0
+##############################################################################
+#####################################191-201#########################################
+building_110, 00191, (54, 141, 77, 155)
+building_112, 00191, (54, 183, 78, 207)
+building_154, 00191, (39, 291, 67, 311)
+building_160, 00191, (0, 402, 143, 480)
+building_100, 00191, (62, 426, 73, 448)
+roadline_11, 00191, (222, 201, 270, 218)
+road_8, 00191, (109, 0, 270, 238)
+sidewalk_82, 00191, (106, 24, 129, 105)
+vegetation_0, 00191, (0, 224, 270, 480)
+vehicles_0, 00191, (125, 193, 221, 287)
+vehicles_0 color: floralwhite
+static_47, 00191, (102, 45, 113, 89)
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+##############################################################################
+#####################################201-211#########################################
+building_110, 00201, (30, 0, 108, 38)
+building_112, 00201, (44, 144, 81, 189)
+building_154, 00201, (6, 327, 95, 366)
+roadline_20, 00201, (141, 9, 270, 160)
+sidewalk_57, 00201, (100, 345, 145, 435)
+vegetation_0, 00201, (0, 223, 263, 480)
+vehicles_0, 00201, (125, 192, 221, 287)
+vehicles_0 color: floralwhite
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+##############################################################################
+#####################################211-221#########################################
+building_112, 00211, (4, 59, 87, 162)
+building_117, 00211, (47, 299, 86, 316)
+building_154, 00211, (4, 411, 138, 480)
+building_102, 00211, (9, 448, 36, 476)
+pedestrian_46, 00211, (84, 364, 114, 375)
+roadline_20, 00211, (135, 21, 270, 170)
+road_19, 00211, (80, 142, 97, 267)
+sidewalk_57, 00211, (119, 411, 159, 480)
+vegetation_0, 00211, (0, 225, 258, 480)
+vehicles_0, 00211, (125, 193, 222, 287)
+vehicles_0 color: floralwhite
+vehicles_57 color: black
+pedestrian_46_color_black appear and walk from near-right to near-right and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speed
+pedestrian_46_color_black comes close to sidewalk_57,roadline_20,vehicles_0_color_floralwhite,vegetation_0
+vehicles_0_color_floralwhite comes close to trafficsign_17,vehicles_57_color_black,pedestrian_46_color_black
+vehicles_0_color_floralwhite maintains constant distance with trafficsign_16
+##############################################################################
+#####################################221-231#########################################
+building_112, 00221, (18, 0, 101, 99)
+building_117, 00221, (21, 340, 101, 405)
+building_154, 00221, (0, 361, 122, 475)
+building_158, 00221, (54, 342, 72, 365)
+road_19, 00221, (83, 0, 159, 336)
+sidewalk_69, 00221, (96, 0, 118, 105)
+sidewalk_58, 00221, (102, 357, 133, 429)
+sidewalk_59, 00221, (84, 265, 159, 350)
+sidewalk_60, 00221, (97, 282, 157, 354)
+vegetation_0, 00221, (0, 232, 249, 480)
+vehicles_0, 00221, (125, 193, 222, 288)
+vehicles_0 color: floralwhite
+trafficsign_17, 00221, (66, 117, 83, 133)
+pedestrian_48_color_black appear and walk from near-right to near-right and maintain fixed pacethen disappear
+vehicles_0_color_floralwhite  move from near-front to near-front and maintains constant speedthen disappear
+pedestrian_48_color_black comes close to vehicles_0_color_floralwhite,sidewalk_60,vegetation_0,sidewalk_58
+vehicles_0_color_floralwhite comes close to trafficsign_17,pedestrian_48_color_black
+pedestrian_48_color_black maintains constant distance with sidewalk_59,sidewalk_69,trafficsign_17,pole_35
+##############################################################################
